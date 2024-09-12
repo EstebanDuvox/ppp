@@ -5,7 +5,10 @@ import java.util.List;
 public class ServicioAutor {
     public List<Autor> getAutor(){
         return List.of(
-            new Autor(null, null)
+            new Autor(
+                null,
+                null
+            )
         );
     }
 }

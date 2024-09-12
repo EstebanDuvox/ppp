@@ -1,5 +1,14 @@
 package com.ppp.demov2.Libros;
 
-public class ServicioLibro {
+import  java.util.List;
 
+public class ServicioLibro {
+    public List<Libro> getLibros(){
+        return List.of(
+            new Libro(
+                null,
+                null,
+                null)
+            );
+    }
 }
