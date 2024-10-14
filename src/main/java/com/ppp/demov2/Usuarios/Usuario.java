@@ -14,6 +14,11 @@ public class Usuario {
     @Column(name = "Con_u")
     private String pass;
 
+    public Usuario(String id, String pass){
+        this.id = id;
+        this.pass = pass;
+    }
+
     public String getId() {
         return id;
     }

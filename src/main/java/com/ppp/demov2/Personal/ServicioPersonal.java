@@ -1,5 +1,14 @@
 package com.ppp.demov2.Personal;
 
-public class ServicioPersonal {
+import java.util.List;
 
+public class ServicioPersonal {
+    public List<Personal> getPersonal(){
+        return List.of(
+            new Personal(
+                null,
+            null,
+            null,
+            null));
+    }
 }

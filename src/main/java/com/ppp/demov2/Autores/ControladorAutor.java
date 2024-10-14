@@ -1,10 +1,8 @@
 package com.ppp.demov2.Autores;
 
 import java.util.List;
-
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 
 @RestController
 @RequestMapping(path = "/api/v0/Autor")
